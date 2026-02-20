@@ -19,6 +19,7 @@ setup(
     license='MIT',
     entry_points={
         'console_scripts': [
+            'evaluation_node = cage_evaluator.evaluation_node:main',
         ],
     },
 )
